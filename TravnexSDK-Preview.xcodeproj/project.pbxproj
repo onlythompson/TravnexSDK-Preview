@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6CEEBC032CD9B8C50083394B /* TravnexSDK_Preview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TravnexSDK_Preview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEEBC032CD9B8C50083394B /* TravnexSDK-Preview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "TravnexSDK-Preview.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEEBC542CDC63970083394B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		6CEEBC622CDC65410083394B /* TravnexSDK-Preview.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TravnexSDK-Preview.podspec"; sourceTree = "<group>"; };
 		6CEEBC7A2CDC801F0083394B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		6CEEBC042CD9B8C50083394B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CEEBC032CD9B8C50083394B /* TravnexSDK_Preview.framework */,
+				6CEEBC032CD9B8C50083394B /* TravnexSDK-Preview.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 				6CEEBC172CD9BBAA0083394B /* RtcBasic */,
 			);
 			productName = "TravnexSDK-Preview";
-			productReference = 6CEEBC032CD9B8C50083394B /* TravnexSDK_Preview.framework */;
+			productReference = 6CEEBC032CD9B8C50083394B /* TravnexSDK-Preview.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -196,7 +196,8 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tranex.TravnexSDK-Preview";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = TravnexSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SKIP_INSTALL = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -206,6 +207,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.1;
+				XXX = 3;
 			};
 			name = Debug;
 		};
@@ -213,7 +215,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -241,7 +243,8 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tranex.TravnexSDK-Preview";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = TravnexSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SKIP_INSTALL = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -251,6 +254,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.1;
+				XXX = 3;
 			};
 			name = Release;
 		};
