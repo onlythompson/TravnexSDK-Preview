@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TravnexSDK-Preview"
+  spec.module_name  = "TravnexSDK"
   spec.version      = "1.0.0"
   spec.summary      = "TravnexSDK-Preview for connection with Travnex Powered Service."
 

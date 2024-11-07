@@ -12,15 +12,15 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "TravnexSDK-Preview",
-            targets: ["TravnexSDK-Preview"]),
+            name: "TravnexSDK",
+            targets: ["TravnexSDK"]),
     ],
     dependecies:[
         .package(url:"https://github.com/AgoraIO/AgoraRtcEngine-iOS", from: "4.4.0"),
     ],
     targets: [
         .target(
-            name: "TravnexSDK-Preview",
+            name: "TravnexSDK",
             dependencies: ["AgoraRtcEngine_iOS"]),
         ],
     swiftLanguageVersions: [.v5]

@@ -17,6 +17,7 @@
 		6CEEBC542CDC63970083394B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		6CEEBC622CDC65410083394B /* TravnexSDK-Preview.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TravnexSDK-Preview.podspec"; sourceTree = "<group>"; };
 		6CEEBC7A2CDC801F0083394B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CEEBC7C2CDC89340083394B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -54,6 +55,7 @@
 				6CEEBC052CD9B8C50083394B /* TravnexSDK-Preview */,
 				6CEEBC042CD9B8C50083394B /* Products */,
 				6CEEBC542CDC63970083394B /* Package.swift */,
+				6CEEBC7C2CDC89340083394B /* .gitignore */,
 				6CEEBC7A2CDC801F0083394B /* README.md */,
 			);
 			sourceTree = "<group>";
